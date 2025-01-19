@@ -96,6 +96,7 @@ input {
 .btn.btn-small {
   padding: 17px 18px;
 }
+
 .section-heading.section-subtitle {
   margin-top: 10px;
 }
@@ -220,4 +221,45 @@ input {
   border-radius: 50%;
   width: 24;
   height: 24px;
+}
+/* Collection Section */
+.collection-inner {
+  margin-top: 60px;
+}
+.collection-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.collection-subinner {
+  margin: 15px 0px;
+}
+.collection-sublist {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.collection-sublist .collection-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.collection-sublist .collection-item button {
+  width: 100px;
+  height: 100px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
+.btn-item-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+}
+.creator-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 100px;
 }
